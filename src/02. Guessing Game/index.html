@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../output.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Guessing Game</title>
+  </head>
+  <body
+    class="bg-slate-800 h-screen flex items-center justify-center text-white"
+  >
+    <div class="grid justify-items-center">
+      <h1 class="text-center text-4xl font-bold">
+        Guess a number between 1 - 100
+      </h1>
+
+      <div class="inline-grid justify-items-center gap-y-3 mt-6">
+        <input
+          id="guess-input"
+          class="text-center bg-transparent outline-none p-4 text-2xl font-medium border-2 border-solid border-slate-500"
+          type="number"
+        />
+
+        <div class="w-full">
+          <span id="guess-info"></span>
+        </div>
+
+        <button
+          id="submit-btn"
+          class="bg-slate-500 hover:bg-slate-600 active:bg-slate-700 py-2 px-4 font-medium rounded-md"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
